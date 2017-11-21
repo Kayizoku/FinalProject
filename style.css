@@ -1,5 +1,5 @@
 body {
-	font-family: 'raleyway', arial, roboto, sans-serif;
+	font-family: raleway;
 	font-size: 18px;
 	color: #000;
 	line-height: 1.6em;
@@ -42,13 +42,19 @@ body {
 	padding: 50px;
 	color: #fff;
 	background-color: #414141;
-	border-radius: 16%
+	border-radius: 16%;
 }
 
 .FirstProblem{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	font-size: 19px;
 	padding: 20px;
 	color: #000;
-	background-color: #fff;
+	text-shadow: 1px 1px 1px #fff;
+	background-color: #E0E0E0;
 	text-align: center;
 	
 	
