@@ -1,0 +1,59 @@
+body {
+	font-family: 'raleyway', arial, roboto, sans-serif;
+	font-size: 18px;
+	color: #000;
+	line-height: 1.6em;
+	margin: 0;
+	padding: 0;
+}
+
+/* SHOWCASE */
+ .showcase {
+ 	font: arial;
+ 	display: flex;
+ 	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	background-image: url(https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAmmAAAAJDM0MzAyZGRmLWMwNzEtNGM5YS05M2IzLWEyNGRiNTAzMzExYQ.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: auto;
+	padding: 0 20px;
+}
+.showcase h1{
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #ccc;
+	
+}
+
+.showcase p{
+	font-size: 25px;
+	color: #fff;
+	text-shadow: 1px 1px #ccc;
+	
+}
+
+.quicksum{
+	padding: 50px;
+	color: #fff;
+	background-color: #414141;
+	border-radius: 16%
+}
+
+.FirstProblem{
+	padding: 20px;
+	color: #000;
+	background-color: #fff;
+	text-align: center;
+	
+	
+	
+	
+}
+
+	
