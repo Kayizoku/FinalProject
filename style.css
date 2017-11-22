@@ -1,100 +1,113 @@
+/* GLOBAL */
+
 body {
 	overflow: auto;
-    font-family: raleway;
-    font-size: 18px;
-    color: #000;
-    background-color: #fff;
-    line-height: 1.6em;
-    margin: 0;
-    padding: 0;
-}
-
-
-/* SHOWCASE */
-
-.showcase {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    background-image: url(./images/header.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 4%;
-    width: auto;
-    height: 100vh;
-    padding: 20px;
-}
-
-.showcase h1 {
-    font-size: 40px;
-    color: #fff;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 1px #ccc;
-}
-
-.showcase p {
-    font-size: 25px;
-    color: #fff;
-    text-shadow: 1px 1px #ccc;
-}
-
-.quicksum {
-	height: 1000px;
-	width: 800px;
+	font-family: raleway;
+	line-height: 1.3em;
+	background-color: #ccc;
 	margin: 0;
-    padding: 0;
-    border: 1px solid red;
-    color: #fff;
-    background-color: #414141;
-    border-radius: 8%;
+	padding: 0;
+	
+}	
+
+h2{
+	text-align: center;
+	color:#F00
 }
 
-.FirstProblem{
-    width: auto;
-    height: 100%;
-    padding-top: 10px;
-    padding-right: 40px;
-    padding-left: 20px;
-    padding-bottom: 50px;
-    border-radius: 5%;
+p{	
+	word-wrap: break-word;
+	width: 45vw;
+	/* color: #fff; */
+	text-shadow: 0.5px 0.5px 0.5px #f3f3f3;
+}
+/* Showcase */
+
+.showcase{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./images/header.jpg);
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	width: auto;
+	padding: 20px;
+	border-bottom: 3px solid teal;
+
+}
+
+.showcase h1{
+	font-family: arial;
+	text-align: center;
+	font-size: 50px;
+	color: #F00;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+.showcase p{
+	width: auto;
+	word-wrap: break-word;
+	width: 55vw;
+	font-size: 20px;
+	
+}
+
+.intro{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #44444494;
+	width: 1000px;
+	margin-left: -25px;
+	height: 220px;
+	border-radius: 20px;
+	word-wrap: break-word;
+
 }
 
 
+/*.main-container{
+	width: 100vw;
+	height: auto;
+	}
+*/
+/* THE FIRST PROBLEM */
 .left{
-    width: 50%;
-    margin-left: 20px;
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: #fff;
-    text-shadow: 1px 1px 1px #000;
-    background-color: #ccc;
-    text-align: left;
-    border-radius: 2%;
+	color: #000;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 25px;
+	padding: 20px;
+	width: 800px;
+	border: 3px solid teal;
+	border-radius: 45px;
+	text-align: left;
+	background-color: #fbf7f7;
+	box-shadow: 0.5px 1px 1px 0.5px #ccc;
+	
 }
 
-.SecondProblem{
-    width: auto;
-    height: 100%;
-    padding-top: 50px;
-    padding-right: 40px;
-    padding-left: 20px;
-    padding-bottom: 50px;
-    border-radius: 5%;
-}
-
-.right {
-	width: 50%;
-    margin-left: 20px;
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: #fff;
-    text-shadow: 1px 1px 1px #000;
-    background-color: #ccc;
-    text-align: right;
-    border-radius: 2%;
+/* THE SECOND PROBLEM */
+.right{
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	margin: 25px;
+	margin-left: 875px;
+	padding: 20px;
+	border: 3px solid teal;
+	border-radius: 45px;
+	text-align: right;
+	background-color: #D1CBCB;
+	
+	
+	
 }
