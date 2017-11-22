@@ -1,87 +1,98 @@
 body {
-	font-family: raleway;
-	font-size: 18px;
-	color: #000;
-	background-color: #070707;
-	line-height: 1.6em;
-	margin: 0;
-	padding: 0;
+    font-family: raleway;
+    font-size: 18px;
+    color: #000;
+    background-color: #fff;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 0;
 }
+
 
 /* SHOWCASE */
- .showcase {
- 	font: arial;
- 	display: flex;
- 	flex-direction: column;
-	justify-content: center;
-	text-align: center;
-	align-items: center;
-	background-image: url(https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAmmAAAAJDM0MzAyZGRmLWMwNzEtNGM5YS05M2IzLWEyNGRiNTAzMzExYQ.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	border-radius: 4%;
-	width: auto;
-	height: 80vh;
-	padding: 0 20px;
-}
-.showcase h1{
-	font-size: 40px;
-	color: #fff;
-	text-transform: uppercase;
-	text-shadow: 1px 1px 1px #ccc;
-	
+
+.showcase {
+    font: arial;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url(https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAmmAAAAJDM0MzAyZGRmLWMwNzEtNGM5YS05M2IzLWEyNGRiNTAzMzExYQ.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 4%;
+    width: auto;
+    height: 80vh;
+    padding: 0 20px;
 }
 
-.showcase p{
-	font-size: 25px;
-	color: #fff;
-	text-shadow: 1px 1px #ccc;
-	
+.showcase h1 {
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #ccc;
 }
 
-.quicksum{
-	padding: 50px;
-	color: #fff;
-	background-color: #414141;
-	border-radius: 8%;
-	
-}
-.FirstProblem_div{
-	display: flex;
-	flex-direction: column;
-	justify-content: end;
-	width: auto;
-	height: 100%;
-	background-color: #999;
-	padding-top: 15px;
-	padding-right: 40px;
-	padding-left: 20px;
-	padding-bottom: 50px;
-	border-radius: 5%;
-
+.showcase p {
+    font-size: 25px;
+    color: #fff;
+    text-shadow: 1px 1px #ccc;
 }
 
-.FirstProblem{
-	min-width: 20%;
-	margin-left: 20px;
-	font-size: 20px;
-	padding: 10px;
-	color: #000;
-	text-shadow: 1px 1px 1px #fff;
-	background-color: #ccc;
-	text-align: center;
-	border-radius: 16%;
+.quicksum {
+    padding: 50px;
+    color: #fff;
+    background-color: #414141;
+    border-radius: 8%;
 }
 
-.SecondProblem{
-	padding-top: 20px;
-	min-width: 20%;
-	font-size: 20px;
-	padding: 10px;
-	color: #000;
-	text-shadow: 1px 1px 1px #fff;
-	background-color: #C4C4C4;
-	text-align: center;
+.FirstProblem_div {
+    width: auto;
+    height: 100%;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    border-radius: 5%;
 }
 
+
+.FirstProblem {
+    border: 3px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: start;
+    width: 50%;
+    margin-left: 20px;
+    font-size: 20px;
+    padding-top: 10px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    background-color: #ccc;
+    text-align: center;
+    border-radius: 2%;
+}
+
+.SecondProblem_div {
+    width: auto;
+    height: 100%;
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    border-radius: 5%;
+}
+
+.SecondProblem {
+    padding-top: 20px;
+    min-width: 20%;
+    font-size: 20px;
+    padding: 10px;
+    color: #000;
+    text-shadow: 1px 1px 1px #fff;
+    background-color: #C4C4C4;
+    text-align: center;
+}
