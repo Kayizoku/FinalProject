@@ -2,7 +2,6 @@ body {
 	font-family: raleway;
 	font-size: 18px;
 	color: #000;
-	background-color: #ccc;
 	line-height: 1.6em;
 	margin: 0;
 	padding: 0;
@@ -64,7 +63,7 @@ body {
 	padding: 20px;
 	color: #000;
 	text-shadow: 1px 1px 1px #fff;
-	background-color: #7466;
+	background-color: #ccc;
 	text-align: center;
 }
 
