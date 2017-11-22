@@ -2,6 +2,7 @@ body {
 	font-family: raleway;
 	font-size: 18px;
 	color: #000;
+	background-color: #ccc;
 	line-height: 1.6em;
 	margin: 0;
 	padding: 0;
@@ -19,8 +20,9 @@ body {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 100vh;
+	border-radius: 4%;
 	width: auto;
+	height: 80vh;
 	padding: 0 20px;
 }
 .showcase h1{
