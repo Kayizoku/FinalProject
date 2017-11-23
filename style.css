@@ -52,6 +52,7 @@ p{
 }
 
 .showcase p{
+	margin-top: 35px;
 	width: auto;
 	word-wrap: break-word;
 	width: 55vw;
@@ -66,7 +67,7 @@ p{
 	align-items: center;
 	text-align: center;
 	background-color: #44444494;
-	width: 1000px;
+	margin-top: 50px;
 	margin-left: -25px;
 	height: 220px;
 	border-radius: 20px;
