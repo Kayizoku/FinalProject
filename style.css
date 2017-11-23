@@ -5,25 +5,26 @@
 	padding: 0;
 }
 
-/* @media only screen and (max-width: 768px)*/  body {
+ body {
 	overflow: auto;
 	font-family: raleway, arial, helvetica, sans-serif;
 	line-height: 1.3em;
 	background-color: #ddd;
 	
-	
-}	}
+}
 
 h2{
-	color:#F00
+	color:#F00;
 }
 
-p{	
+p{	padding-bottom: 20px;
 	word-wrap: break-word;
-	width: 60vw;
-	/* color: #fff; */
+	width: 45vw;
+	color: #000;
 	text-shadow: 0.5px 0.5px 0.5px #f3f3f3;
 }
+
+
 /* Showcase */
 
 .showcase{
@@ -38,7 +39,7 @@ p{
 	text-align: center;
 	align-items: center;
 	width: auto;
-	padding: 20px;
+	padding: 150px;
 	border-bottom: 1.5px solid teal;
 
 }
@@ -53,10 +54,9 @@ p{
 
 .showcase p{
 	color: #D1E61E;
+	word-wrap: break-word;
 	margin-top: 35px;
 	width: auto;
-	word-wrap: break-word;
-	width: 55vw;
 	font-size: 20px;
 	
 }
@@ -72,7 +72,7 @@ p{
 	margin-left: -25px;
 	height: 220px;
 	border-radius: 20px;
-	word-wrap: break-word;
+	
 
 }
 
@@ -96,14 +96,14 @@ p{
 /* THE SECOND PROBLEM */
 .right{
 	display: flex;
-	justify-content: flex-end;
 	flex-direction: column;
+	justify-content: right;
+	align-items: right;
+	text-align: right;
 	margin: 0;
 	padding: 20px;
 	border: 1.5px solid teal;
-	text-align: right;
 	background-color: #D1CBCB;
 	
-	
-	
 }
+
