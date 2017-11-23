@@ -13,16 +13,11 @@
 	
 }
 
-h2{
-	color:#F00;
-}
-
-p{	padding-bottom: 20px;
+/* p{	padding-bottom: 20px;
 	word-wrap: break-word;
 	width: 45vw;
-	color: #000;
-	text-shadow: 0.5px 0.5px 0.5px #f3f3f3;
 }
+/*
 
 
 /* Showcase */
@@ -77,32 +72,39 @@ p{	padding-bottom: 20px;
 }
 
 
-/*.main-container{
-	width: 100vw;
-	height: auto;
-	}
-*/
+.main-container{
+	line-height: 1.5em;
+	margin-top: 2.0px;
+	padding: 2.5px;
+	width: auto;
+	border: 2.5px solid teal;
+	color: black;
+	text-shadow: 1px 1px 1px solid red;
+	
+}
+
+.main-container p{
+	word-wrap: break-word;
+	width: 800px;
+	margin-top: 8px;
+	padding: 1px;
+}
+
 /* THE FIRST PROBLEM */
 .left{
 	margin: 0;
 	padding-top: 20px;
 	text-align: left;
 	background-color: #fbf7f7;
-	border: 1.5px solid teal;
-	box-shadow: 0.5px 1px 1px 0.5px #ccc;
+	border: 1.25px solid red;
 	
 }
 
 /* THE SECOND PROBLEM */
 .right{
-	display: flex;
-	flex-direction: column;
-	justify-content: right;
-	align-items: right;
 	text-align: right;
-	margin: 0;
 	padding: 20px;
-	border: 1.5px solid teal;
+	border: 1.25 solid red;
 	background-color: #D1CBCB;
 	
 }
