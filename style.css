@@ -77,6 +77,7 @@ h1{
 	text-shadow: 5px 5px 5px solid #ccc;
 	margin: 0;
 	padding: 0;
+	max-width: 100%;
 
 		
 }
@@ -85,12 +86,12 @@ h1{
 	font: 20px arial;
 	text-shadow: #fff 1px black;
 	word-wrap: break-word;
-	width: 55%;
+	width: 50%;
 }
 
 .main-container h2 {
 	font: 30px arial;
-	text-align: right;	
+	text-align: center;	
 }
 
 
@@ -110,13 +111,12 @@ h1{
 	margin-right: 0.3em;
 	padding: 0.6em;
 	padding-bottom: 0;
-	float: left;
 	
 }
 
 /* THE SECOND PROBLEM */
 .SecondProblem{
-	display: flex-end;
+	display: inline-block;
 	flex-direction: column;
 	justify-content: right;
 	align-items: right;
@@ -130,15 +130,13 @@ h1{
 	padding: 0.6em;
 }
 
-.SecondProblem p {
-	margin-left: 41.4em;
-}
+
 
 
 /* THE THIRD PROBLEM */
 
 .ThirdProblem{
-	display: flex;
+	display: inline-block;
 	flex-direction: column;
 	justify-content: right;
 	align-items: right;
