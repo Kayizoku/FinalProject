@@ -20,15 +20,11 @@ h1{
 
 /* IMAGES */
 
-.monitor{
-	position: absolute;
+.pic1{
+	position: relative;
 	display: inline-block;
-	float: right;	
-	top: 7em;
-	right: 5em;
-	max-width: 35%;
-	height: auto;
-	border-radius: 30px;
+	height: 40px;	
+	max-width: 40%;
 }
 
 /* SHOWCASE/HEADER */
@@ -39,7 +35,7 @@ h1{
 	background-size: cover;
 	display: inline-block;
 	position: relative;
-	font: 20px Raleway;
+	font: 20px;
 	text-align: center; 
 	padding-top: 9em;
 	padding-bottom: 20px;
@@ -72,7 +68,7 @@ h1{
 
 .main-container {
 	position: relative;
-	font: 17px raleway;
+	font: 17px;
 	color: #000;
 	text-shadow: 5px 5px 5px solid #ccc;
 	margin: 0;
