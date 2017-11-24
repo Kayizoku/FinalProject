@@ -1,4 +1,5 @@
 /* GLOBAL */
+
 *{	
 	box-sizing: border-box;
 	
@@ -27,12 +28,12 @@ h1{
 	right: 5em;
 	width: 39%;
 	height: 40%;
+	border-radius: 30px;
 }
 
 /* SHOWCASE/HEADER */
 
 .showcase{
-	position: relative;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.6)), url(./images/header.jpg);
 	background-position: center;
 	background-size: cover;
@@ -54,6 +55,7 @@ h1{
 }
 
 .showcase p{
+	position: relative;
 	padding: 1em;
 	margin-top: 2px;
 	background-color: #44444494;
@@ -99,8 +101,8 @@ h1{
 	justify-content: flex-start;
 	align-items: left;
 	text-align: left;
-	background-color: #d1d1d1;
-	border: 0.3em solid teal;
+	background-color: #5788A7;
+	border: 0.2em solid #2B2C2D;
 	margin-top: 5px;
 	margin-left: 0.3em;
 	margin-right: 0.3em;
@@ -109,14 +111,15 @@ h1{
 	
 }
 
+/* THE SECOND PROBLEM */
 .SecondProblem{
 	display: flex-end;
 	flex-direction: column;
 	justify-content: right;
 	align-items: right;
 	text-align: right;
-	background-color: #b9b9b9;
-	border: 0.3em solid teal;
+	background-color: #fdf;
+	border: 0.2em solid #2B2C2D;
 	text-align: right;
 	margin-top: 0.2em;
 	margin-left: 0.3em;
@@ -128,6 +131,8 @@ h1{
 	margin-left: 41.4em;
 }
 
+/* THE THIRD PROBLEM */
+
 .ThirdProblem{
 	display: flex;
 	flex-direction: column;
@@ -135,7 +140,7 @@ h1{
 	align-items: right;
 	text-align: right;
 	background-color: #acacac;
-	border: 0.3em solid teal;
+	border: 0.2em solid #2B2C2D;
 	text-align: left;
 	margin-top: 0.2em;
 	margin-left: 0.3em;
