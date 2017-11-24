@@ -20,12 +20,26 @@ h1{
 
 /* IMAGES */
 
-.pic1{
-	position: relative;
+.half-image{
 	display: inline-block;
-	height: 40px;	
-	max-width: 40%;
+	width: 50%;
 }
+
+.half-image img {
+	width: 100%;
+	min-width: 100px;
+	max-width: 1000px
+}
+
+.half-text {
+	display: inline-block;
+	width: 49%;
+}
+
+.half-text p {
+	padding-left: 1em;
+}
+
 
 /* SHOWCASE/HEADER */
 
@@ -67,22 +81,18 @@ h1{
 /* MAIN CONTAINER */
 
 .main-container {
-	position: relative;
 	font: 17px;
 	color: #000;
 	text-shadow: 5px 5px 5px solid #ccc;
 	margin: 0;
 	padding: 0;
-	max-width: 100%;
-
-		
+	width: 100%;
 }
 
 .main-container p {
-	font: 20px arial;
+	font: 1.2em arial;
 	text-shadow: #fff 1px black;
 	word-wrap: break-word;
-	width: 50%;
 }
 
 .main-container h2 {
@@ -96,18 +106,12 @@ h1{
 
 .FirstProblem{
 	display: inline-block;
-	flex-direction: column;
-	justify-content: flex-start;
+	
 	align-items: left;
 	text-align: left;
 	background-color: #5788A7;
 	border: 0.2em solid #2B2C2D;
-	margin-top: 5px;
-	margin-left: 0.3em;
-	margin-right: 0.3em;
-	padding: 0.6em;
-	padding-bottom: 0;
-	
+	width: 100%;
 }
 
 /* THE SECOND PROBLEM */
