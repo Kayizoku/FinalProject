@@ -24,10 +24,10 @@ h1{
 	position: absolute;
 	display: inline-block;
 	float: right;	
-	top: 2em;
+	top: 7em;
 	right: 5em;
-	width: 39%;
-	height: 40%;
+	max-width: 35%;
+	height: auto;
 	border-radius: 30px;
 }
 
@@ -64,7 +64,7 @@ h1{
 	text-shadow: 1px 1px 1px #000;
 	word-wrap: break-word;
 	width: 50%;
-	margin-left: 470px;
+	margin-left: 25%;
 }
 
 /* MAIN CONTAINER */
