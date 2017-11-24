@@ -43,8 +43,9 @@ h1{
 	text-align: center; 
 	padding-top: 9em;
 	padding-bottom: 20px;
-	width: 0 auto;
+	max-width: 100%;
 	height: 38.5em;
+	margin: 0 auto;
 
 	
 	}
