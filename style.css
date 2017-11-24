@@ -20,9 +20,9 @@ h1{
 /* IMAGES */
 
 .monitor{
-	display: inline-block;
-	float: right;
 	position: absolute;
+	display: inline-block;
+	float: right;	
 	top: 2em;
 	right: 5em;
 	width: 39%;
@@ -41,8 +41,9 @@ h1{
 	font: 20px Raleway;
 	text-align: center; 
 	padding-top: 9em;
+	padding-bottom: 20px;
 	width: 0 auto;
-	height: 80vh;
+	height: 38.5em;
 
 	
 	}
@@ -54,6 +55,7 @@ h1{
 
 .showcase p{
 	padding: 1em;
+	margin-top: 2px;
 	background-color: #44444494;
 	border-radius: 45px;
 	color: yellow;
@@ -147,9 +149,11 @@ h1{
 
 
 
-/* MEDIA QUERIES 
-
-@media all and (max-width: 60%) and (min-width: 30%) {
-
+/* @media screen and (max-width: 700px) {
+	body {
+		
+	}
 }
-/*
+
+*/
+		
