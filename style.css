@@ -119,11 +119,10 @@ h1{
 	display: inline-block;
 	flex-direction: column;
 	justify-content: right;
-	align-items: right;
-	text-align: right;
+	align-items: left;
+	text-align: left;
 	background-color: #fdf;
 	border: 0.2em solid #2B2C2D;
-	text-align: right;
 	margin-top: 0.2em;
 	margin-left: 0.3em;
 	margin-right: 0.3em;
