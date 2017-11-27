@@ -31,27 +31,6 @@ h1{
 	max-width: 1000px
 }
 
-
-.monitor img  {
-	position: absolute;
-	border-radius: 35px;
-	width: 32.5%;
-	height: 37.5%;
-	bottom: 43.4em;
-	left: 74em;
-}
-
-.half-image{
-	display: inline-block;
-	width: 50%;
-}
-
-.half-image img {
-	width: 100%;
-	min-width: 100px;
-	max-width: 1000px
-}
-
 .half-text {
 	display: inline-block;
 	width: 49%;
@@ -60,14 +39,16 @@ h1{
 .half-text p {
 	padding-left: 1em;
 }
+
+
 /* SHOWCASE/HEADER */
 
 .showcase{
-	position: relative;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.6)), url(./images/header.jpg);
 	background-position: center;
 	background-size: cover;
 	display: inline-block;
+	position: relative;
 	font: 20px;
 	text-align: center; 
 	padding-top: 9em;
@@ -85,6 +66,7 @@ h1{
 }
 
 .showcase p{
+	position: relative;
 	padding: 1em;
 	margin-top: 2px;
 	background-color: #44444494;
@@ -107,41 +89,24 @@ h1{
 	width: 100%;
 }
 
-
 .main-container p {
-	font: 20px Raleway;
-	width: 100%;
+	font: 1.2em arial;
+	text-shadow: #fff 1px black;
+	word-wrap: break-word;
 }
 
 .main-container h2 {
-	font: 30px Arial;
+	font: 30px arial;
+	text-align: center;	
 }
+
+
 
 /* THE FIRST PROBLEM */
 
-.FirstProblem{	
+.FirstProblem{
 	display: inline-block;
 	
-	align-items: left;
-	text-align: left;
-	background-color: #5788A7;
-	border: 0.2em solid #2B2C2D;
-	width: 100%;
-	flex-direction: column;
-	justify-content: left;
-	text-align: left;
-	background-color: #5788A7;
-	border: 0.2em solid #2B2C2D;
-	margin-top: 0.3em;
-	margin-left: 0.5em;
-	margin-right: 0.3em;
-	padding: 0.6em;
-	
-	
-}
-
-.FirstProblem h2{
-	text-align: left;	
 	align-items: left;
 	text-align: left;
 	background-color: #5788A7;
@@ -154,47 +119,47 @@ h1{
 	display: inline-block;
 	flex-direction: column;
 	justify-content: right;
-	text-align: right;
+	align-items: left;
+	text-align: left;
 	background-color: #fdf;
 	border: 0.2em solid #2B2C2D;
 	margin-top: 0.2em;
-	margin-left: 0.5em;
+	margin-left: 0.3em;
 	margin-right: 0.3em;
 	padding: 0.6em;
 }
 
-.SecondProblem h2{
-	text-align: right;
-}
 
-.SecondProblem p{
-	text-align: right;
-	margin-left: 51.8em;
-}
 
 
 /* THE THIRD PROBLEM */
 
 .ThirdProblem{
-	display: flex;
+	display: inline-block;
 	flex-direction: column;
 	justify-content: right;
+	align-items: right;
 	text-align: right;
 	background-color: #acacac;
 	border: 0.2em solid #2B2C2D;
 	text-align: left;
 	margin-top: 0.2em;
-	margin-left: 0.5em;
+	margin-left: 0.3em;
 	margin-right: 0.3em;
+	padding: 0.6em;
 
-	
-	
-}
-
-.ThirdProblem h2{
-	text-align: left;
 }
 
 
 
 
+
+
+/* @media screen and (max-width: 700px) {
+	body {
+		
+	}
+}
+
+*/
+		
