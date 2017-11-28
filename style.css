@@ -34,6 +34,7 @@ h1{
 .half-text {
 	display: inline-block;
 	width: 49%;
+	vertical-align: top;
 }
 
 .half-text p {
@@ -106,9 +107,6 @@ h1{
 
 .FirstProblem{
 	display: inline-block;
-	
-	align-items: left;
-	text-align: left;
 	background-color: #5788A7;
 	border: 0.2em solid #2B2C2D;
 	width: 100%;
@@ -124,9 +122,8 @@ h1{
 	background-color: #fdf;
 	border: 0.2em solid #2B2C2D;
 	margin-top: 0.2em;
-	margin-left: 0.3em;
-	margin-right: 0.3em;
 	padding: 0.6em;
+	width: 100%;
 }
 
 
@@ -144,9 +141,8 @@ h1{
 	border: 0.2em solid #2B2C2D;
 	text-align: left;
 	margin-top: 0.2em;
-	margin-left: 0.3em;
-	margin-right: 0.3em;
 	padding: 0.6em;
+	width: 100%;
 
 }
 
