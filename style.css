@@ -28,6 +28,10 @@ section{
 	box-shadow: 0px 0px 50px grey;
 }
 
+.sol1, .sol2, .sol3{
+	margin-top: 0.8em;
+}
+
 .box{
 
 }
