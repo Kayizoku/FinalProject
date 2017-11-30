@@ -38,6 +38,8 @@ body{
   margin: auto;
   font-size: 12vw;
 }
+
+
 .title{
   max-height: 133px;
   font-weight: bold; 
@@ -45,7 +47,7 @@ body{
 }
 
 .textbox{
-  grid-area: 10/1/16/25;
+  grid-area: 9/1/15/25;
   padding-left: 20%; 
   padding-right: 20%; 
 }
