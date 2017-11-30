@@ -2,6 +2,10 @@
 	box-sizing: border-box;
 }
 
+body{
+	font-family: raleway, arial, helvetica, sans-serif;
+
+}
 
 section{
 	border-style: solid;
@@ -11,9 +15,10 @@ section{
 }
 
 section h2{
+	font: arial 20px;
 	font-size: 2em;
 }
 
 section p{
-font: 
+font: ralway 30px;
 }
