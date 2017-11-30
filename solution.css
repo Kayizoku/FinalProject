@@ -9,6 +9,7 @@ body{
 }
 
 h1{
+	font: arial 50px;
 	text-shadow: 0.5px 0.5px 0.5px #000;
 	text-transform: uppercase;
 	text-align: center;
