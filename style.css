@@ -3,3 +3,17 @@
 }
 
 
+section{
+	border-style: solid;
+	border-radius: 30px;
+	margin: 1em 0.5em 0em 0.5em;
+	padding: 0em 1em;
+}
+
+section h2{
+	font-size: 2em;
+}
+
+section p{
+font: 
+}
