@@ -53,6 +53,10 @@ li{
 	background-color: darkgray;
 }
 
+.KnapperMidten{
+	text-align: center;
+}
+
 a{
 	text-decoration: none;
 	padding: 4px;
