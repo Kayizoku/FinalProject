@@ -95,19 +95,23 @@ a{
     font-family: Arial;
     position: fixed;
     text-align: center;
-    width: 100%;
+	width: 99.6%;
+	box-sizing: content-box;
+	border-style: solid;
 }
 
 .navbar a {
+	box-sizing: border-box;
+	width: 25%;
     float: left;
-    font-size: 22px;
+    font-size: 35px;
     color: white;
     text-align: center;
-    padding: 13px 10.101vw;
+    padding: 10px 0px;
     text-decoration: none;
 }
 
 .navbar a:hover {
     background-color: #ddd;
-    color: #202020;
+	color: #202020;
 }
