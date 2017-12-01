@@ -40,11 +40,11 @@ section{
 	margin-top: 0.8em;
 }
 
-ul{
+.KnapperMidten ul{
 	padding: 0;
 }
 
-li{
+.KnapperMidten li{
 	text-align: center;
 	display: inline-block;
 	border-style: solid;
@@ -93,13 +93,12 @@ a{
     font-family: Arial;
     position: fixed;
     text-align: center;
-	width: 99.6%;
+	width: 99.5%;
 	box-sizing: content-box;
 	border-style: solid;
 }
 
 .navbar a {
-	box-sizing: border-box;
 	width: 25%;
     float: left;
     font-size: 35px;
@@ -112,4 +111,21 @@ a{
 .navbar a:hover {
     background-color: #ddd;
 	color: #202020;
+}
+
+@media screen and (max-width: 600px){ 
+	.navbar a{
+		width: 50%;
+		padding: 3px 0px;
+		font-size: 20px;
+	}
+	section{
+		margin: 0% 3%;
+	}
+	.problem{
+		padding-top: 4.2em;
+	}
+	body{
+		font-size: 18px;
+	}
 }
