@@ -40,7 +40,8 @@ body{
   font-size: 3vw;
 }
 .nav1{
-  grid-area: 11/3/12/5;
+  grid-area: 11/2/12/5;
+  
 }
 .nav2{
   grid-area: 11/6/12/8;

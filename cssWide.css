@@ -20,7 +20,7 @@ body{
 }
 
 .gridTitle{
-  grid-area: 4/1/9/25;
+  grid-area: 3/1/8/25;
   height: 100%;
   margin: 0;
   display: flex; 
