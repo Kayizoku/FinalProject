@@ -40,10 +40,6 @@ section{
 	margin-top: 0.8em;
 }
 
-.KnapperMidten ul{
-	padding: 0;
-}
-
 .KnapperMidten li{
 	text-align: center;
 	display: inline-block;
@@ -64,7 +60,11 @@ section{
 	color: #0B2B2B;
 	font-size: 14px;
 	display: block;
-	width: 125px;
+	width: 118px;
+}
+
+.KnapperMidten ul{
+	padding: 0;
 }
 
 .problem{
@@ -95,9 +95,8 @@ a{
     font-family: Arial;
     position: fixed;
     text-align: center;
-	width: 99.7%;
+	width: 100%;
 	box-sizing: content-box;
-	border-style: solid;
 }
 
 .navbar a {
@@ -107,7 +106,10 @@ a{
     color: #2BFC9F;
     text-align: center;
     padding: 10px 0px;
-    text-decoration: none;
+	text-decoration: none;
+	border: 2px solid black;
+	border-right-width: 1.5px;
+	border-left-width: 1.5px;
 }
 
 .navbar a:hover {
@@ -115,11 +117,17 @@ a{
 	color: #0B2B2B;
 }
 
+.aktivnav{
+	background-color: rgba(96, 252, 182, 0.53);
+	color: #082020 !important;
+}
+
 @media screen and (max-width: 600px){ 
 	.navbar a{
 		width: 50%;
 		padding: 3px 0px;
 		font-size: 20px;
+		border-width: 1.1px;
 	}
 	section{
 		margin: 0% 3%;
@@ -129,5 +137,10 @@ a{
 	}
 	body{
 		font-size: 18px;
+	}
+	.KnapperMidten a{
+		font-size: 12px;
+		width: 80px;
+		line-height: 14px;
 	}
 }
