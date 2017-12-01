@@ -112,7 +112,7 @@ a{
 	border-left-width: 1.5px;
 }
 
-.navbar a:hover {
+.navbar a:hover:not(.aktivnav) {
     background-color: #2BFC9F;
 	color: #0B2B2B;
 }
