@@ -90,7 +90,7 @@ a{
 
 .navbar {
 	top: 0;
-    background-color: #202020;
+    background-color: #0B2B2B;
     font-family: Arial;
     position: fixed;
     text-align: center;
@@ -103,15 +103,15 @@ a{
 	width: 25%;
     float: left;
     font-size: 35px;
-    color: white;
+    color: #2BFC9F;
     text-align: center;
     padding: 10px 0px;
     text-decoration: none;
 }
 
 .navbar a:hover {
-    background-color: #ddd;
-	color: #202020;
+    background-color: #2BFC9F;
+	color: #0B2B2B;
 }
 
 @media screen and (max-width: 600px){ 
