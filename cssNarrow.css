@@ -31,7 +31,7 @@ body{
 
 .textbox{
   grid-area: 3/1/10/2; 
-  font-size: 4vw;
+  font-size: 5vw;
   padding: 20px 20px;
 }
 
@@ -53,7 +53,6 @@ body{
   color: #0B2B2B;
   width: 100%;
   padding: 20px 0px;
-
 }
 
 .nav1{
