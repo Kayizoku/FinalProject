@@ -10,10 +10,8 @@ body{
 
 h1{
 	font: 3em arial;
-	display: inline-block;
-	margin-left: 8.0em;
-	text-shadow: 0.5px 0.5px 0.5px #000;
 	text-align: center;
+	text-shadow: 0.5px 0.5px 0.5px #000;
 	background-color: #ccc;
 }
 
