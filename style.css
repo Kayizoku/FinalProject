@@ -80,6 +80,10 @@ a{
 	color: normal;
 }
 
+.link{
+	text-decoration: underline;
+}
+
 /* .button{
 	height: auto;
 	display: inline-block;
