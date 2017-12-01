@@ -13,7 +13,7 @@ h1{
 	font: 3em arial;
 	text-align: center;
 	text-shadow: 0.5px 0.5px 0.5px #000;
-	background-color: #ccc;
+	background-color: ;
 }
 
 h2{
@@ -40,7 +40,7 @@ section{
 }
 
 .sol1, .sol2, .sol3{
-	font: 15px  raleway;
+	font: 20px  raleway;
 	margin-top: 0.8em;
 }
 
