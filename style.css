@@ -89,6 +89,7 @@ a{
 }
 
 .navbar {
+	top: 0;
     background-color: #202020;
     font-family: Arial;
     position: fixed;
@@ -99,7 +100,6 @@ a{
 }
 
 .navbar a {
-	box-sizing: border-box;
 	width: 25%;
     float: left;
     font-size: 35px;
