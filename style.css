@@ -89,6 +89,7 @@ a{
 }
 
 .navbar {
+	top: 0;
     background-color: #202020;
     font-family: Arial;
     position: fixed;
