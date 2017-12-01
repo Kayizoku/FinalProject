@@ -25,6 +25,13 @@ body{
   z-index: 0;
 }
 
+.gridTitle span{
+  margin: auto;
+  font-size: 12vw;
+  max-height: 133px;
+  font-weight: bold; 
+  color:#2BFC9F;
+}
 
 .textbox{
   grid-area: 5/3/10/11; 
