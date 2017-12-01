@@ -4,8 +4,6 @@ html{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif sans-serif;
   color: white;
   font-size: 24px;
-  
-  
 }
 body{
   width: 100%;
@@ -51,6 +49,8 @@ body{
   grid-area: 9/1/15/25;
   padding-left: 20%; 
   padding-right: 20%; 
+  font-size: 2vw;
+  color: #fff;
 }
 
 .nav1{
@@ -79,7 +79,7 @@ body{
   display: flex;
   border-radius: 5px;
   color: #0B2B2B;
-  font-size: 48px;
+  font-size: 3vw;
 
 }
 .navItem span{
