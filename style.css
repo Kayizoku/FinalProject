@@ -47,7 +47,7 @@ section{
 .KnapperMidten li{
 	text-align: center;
 	display: inline-block;
-	border: 1px solid #0B2B2B;
+	border: 1.5px solid #0B2B2B;
 }
 
 .aktiv{
@@ -60,9 +60,10 @@ section{
 
 .KnapperMidten a{
 	color: #0B2B2B;
-	font-size: 14px;
+	font-size: 15px;
 	display: block;
-	width: 118px;
+	width: 125px;
+	font-weight: bold;
 }
 
 .KnapperMidten ul{
