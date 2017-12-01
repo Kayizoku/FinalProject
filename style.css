@@ -40,19 +40,13 @@ section{
 	margin-top: 0.8em;
 }
 
-.box{
-
-}
-
 ul{
-	margin: 10px 0px;
 	padding: 0;
 }
 
 li{
 	text-align: center;
 	display: inline-block;
-	padding: 4px;
 	border-style: solid;
 	border-width: 1px;
 }
@@ -63,6 +57,17 @@ li{
 
 .KnapperMidten{
 	text-align: center;
+}
+
+.KnapperMidten a{
+	color: black;
+	font-size: 14px;
+	display: block;
+	width: 125px;
+}
+
+.problem{
+	padding-top: 3.5em;
 }
 
 a{
@@ -82,7 +87,6 @@ a{
 	font-size: 14px;
 	cursor: pointer;
 }
-
 
 .navbar {
     background-color: #202020;
@@ -104,3 +108,4 @@ a{
 .navbar a:hover {
     background-color: #ddd;
     color: #202020;
+}
