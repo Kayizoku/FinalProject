@@ -84,19 +84,6 @@ a{
 	text-decoration: underline;
 }
 
-/* .button{
-	height: auto;
-	display: inline-block;
-	padding: 0.4em;
-	border-radius: 2em;
-	background-color: #48B66FFF;
-	box-shadow: 0 7px 15px #000;
-	color: #fff;
-	font-size: 14px;
-	cursor: pointer;
-}
-*/
-
 .navbar {
 	top: 0;
     background-color: #0B2B2B;
