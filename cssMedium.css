@@ -1,6 +1,6 @@
 html{
   height: 100%;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif sans-serif;
+  font-family: sans-serif;
   color: white;
 }
 
@@ -27,8 +27,7 @@ body{
 
 .gridTitle span{
   margin: auto;
-  font-size: 12vw;
-  max-height: 133px;
+  font-size: 14vw;
   font-weight: bold; 
   color:#2BFC9F;
 }
@@ -57,9 +56,23 @@ body{
   display: flex;
   border-radius: 5px;
   color: #0B2B2B;
-  font-size: 3vw;
+  font-size: 4vw;
+  text-align: center;
 }
 
-.navItem span{
+.navItem a{
   margin: auto;
+}
+
+.links{
+  text-decoration: none;
+  color: #0B2B2B;
+  padding: 20px 0px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.links:hover{
+  background-color: rgb(15, 80, 51);
+  color: white;
 }
