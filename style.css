@@ -121,6 +121,10 @@ a{
 	color: #082020 !important;
 }
 
+a:focus{
+	outline: 2px dashed red;
+}
+
 @media screen and (max-width: 600px){ 
 	.navbar a{
 		width: 50%;
