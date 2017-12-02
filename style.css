@@ -6,7 +6,10 @@ body{
 	line-height: 1.4em;
 	font-family: raleway, arial, helvetica, sans-serif;
 	font-size: 25px;
-	background-color: #494E4E;
+	background-image: url(Backgroundimg.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 	margin: 0 0 10px 0;
 }
 
