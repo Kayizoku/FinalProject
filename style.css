@@ -29,6 +29,7 @@ h3{
 }
 
 section{
+	color: #fff;
 	background-color: #ddd;
 	margin: 0px 15%;
 	padding: 30px 20px 10px 20px;
@@ -43,6 +44,7 @@ section{
 
 .sol1, .sol2, .sol3{
 	margin-top: 3em;
+	background-color: #2E3131
 }
 
 .KnapperMidten li{
@@ -60,6 +62,7 @@ section{
 }
 
 .KnapperMidten a{
+	background-color: #2BFC9F;
 	color: #0B2B2B;
 	font-size: 15px;
 	display: block;
@@ -67,8 +70,14 @@ section{
 	font-weight: bold;
 }
 
+.KnapperMidten a:hover{
+	color: darkgreen;
+	
+}
+
 .KnapperMidten ul{
 	padding: 0;
+	
 }
 
 .problem{
