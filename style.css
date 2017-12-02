@@ -85,6 +85,7 @@ section{
 
 .problem{
 	margin-top: 3em;
+	background-color: #2E3131;
 }
 
 a{
@@ -158,6 +159,7 @@ a:focus{
 
 .about{
 	margin-top: 3em;
+	background-color: #2E3131;
 }
 
 .sources{
