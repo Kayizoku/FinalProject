@@ -33,21 +33,10 @@ h3{
 
 section{
 	color: #fff;
-	background-color: #ddd;
-	margin: 0px 15%;
+	background-color: #2E3131;
+	margin: 3em 15% 0 15%;
 	padding: 30px 20px 10px 20px;
 	box-shadow: 0px 0px 50px #0B2B2B;
-}
-
-.solution{
-	margin-top: 3em;
-	background-color: #2E3131;
-}
-
-
-.sol1, .sol2, .sol3{
-	margin-top: 3em;
-	background-color: #2E3131;
 }
 
 .KnapperMidten li{
@@ -81,11 +70,6 @@ section{
 .KnapperMidten ul{
 	padding: 0;
 	
-}
-
-.problem{
-	margin-top: 3em;
-	background-color: #2E3131;
 }
 
 a{
@@ -157,12 +141,6 @@ a:focus{
 	}
 }
 
-.about{
-	margin-top: 3em;
-	background-color: #2E3131;
-}
-
 .sources{
-    margin-top: 3em;
     overflow: auto;
 }
