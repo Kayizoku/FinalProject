@@ -77,6 +77,10 @@ body{
   grid-area: 3/1/10/8; 
   font-size: 4.7vw;
   padding: 20px 20px;
+  line-height: 1.2em;
+}
+.textBox h2{
+  font-size: 7vw;
 }
 
 .links{
@@ -140,6 +144,9 @@ body{
       grid-area: 4/1/10/8; 
       margin-left: 20px;
       padding-top: 0px;
+    }
+    .textBox h2{
+      font-size: 4.7vw;
     }
     .gridTitle{
       grid-area: 3/1/4/8;
