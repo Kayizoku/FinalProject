@@ -46,8 +46,8 @@ section{
 }
 
 .aktiv{
-	background-color: rgb(23, 110, 73);
-	color: #fff;
+	background-color: rgb(23, 110, 73) !important;
+	color: #fff !important;
 }
 
 .KnapperMidten{
