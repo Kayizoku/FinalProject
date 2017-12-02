@@ -16,7 +16,7 @@ body{
 }
 
 .topBar{
-  background-color: gray;
+  background-color: #2E3131;
   grid-area: 1/1/2/8;
   z-index: 1;
 }
