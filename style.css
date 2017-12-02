@@ -9,7 +9,7 @@ body{
 	background-image: url(Backgroundimage.jpg);
     background-repeat:no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+	background-size: cover;
 	margin: 0 0 10px 0;
 }
 
@@ -43,6 +43,7 @@ section{
 	text-align: center;
 	display: inline-block;
 	border: 1.5px solid #0B2B2B;
+	border-radius: 5px;
 }
 
 .aktiv{
@@ -61,6 +62,7 @@ section{
 	display: block;
 	width: 135px;
 	font-weight: bold;
+	border-radius: 5px;
 }
 
 .KnapperMidten a:hover{
