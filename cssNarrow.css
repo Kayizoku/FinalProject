@@ -9,16 +9,61 @@ body{
   height: 100%;
   margin: 0;
   background-color: #0B2B2B;
-}
-
-.gridContainer{
   display: grid;
-  grid-template-columns: 100%;
+  grid-template-columns: repeat(7 ,1fr);
   grid-template-rows: repeat(12, 1fr);
+  
 }
 
+.topBar{
+  background-color: gray;
+  grid-area: 1/1/2/8;
+  z-index: 1;
+}
+.burgerButton{
+  font-size: 15vw;
+  margin-left: 10px;
+}
+.burgerButton:hover{
+  background-color: rgb(97, 97, 97);
+  cursor: pointer;
+}
+
+.overlay{
+  display: none;
+  grid-area: 1/1/13/8;
+  background-color: black;
+  background-color: rgba(0,0,0, 0.95);
+  transition: 0.5s;
+  z-index: 2;
+}
+.overlayContent{
+  position: relative;
+  top: 25%; 
+  width: 100%; 
+  text-align: center; 
+  margin-top: 30px;
+}
+
+.overlayContent a{
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: white;
+  display: block; 
+  transition: 0.3s;
+}
+
+.closeBtn {
+  font-size: 15vw;
+  position: absolute;
+  top: 20px;
+  left: 45px;
+  text-decoration: none;
+  color: white;
+}
 .gridTitle {
-  grid-area: 1/1/4/2;
+  grid-area: 2/1/4/8;
   display: flex;
 }
 .gridTitle span{
@@ -28,23 +73,10 @@ body{
   color:#2BFC9F;
 }
 
-.textbox{
-  grid-area: 3/1/10/2; 
-  font-size: 4.5vw;
+.textBox{
+  grid-area: 3/1/10/8; 
+  font-size: 4.7vw;
   padding: 20px 20px;
-}
-
-.navItem{
-  background-color: #2BFC9F;
-  display: flex;
-  color: #0B2B2B;
-  font-size: 4vw;
-  text-align: center;
-  border-style: solid;
-}
-
-.navItem a{
-  margin: auto;
 }
 
 .links{
@@ -55,19 +87,67 @@ body{
 }
 
 .nav1{
-  grid-area: 10/1/10/2;
-  border-bottom-style: none;
-  
+  grid-area: 11/1/12/3;
 }
 .nav2{
-  grid-area: 11/1/12/2;
-  border-bottom-style: none;
+  grid-area: 11/3/12/5;
 }
 .nav3{
-  grid-area: 12/1/13/2;
+  grid-area: 12/1/13/5;
 }
 
 .links:hover{
   background-color: rgb(15, 80, 51);
   color: white;
+}
+
+.navBurger{
+  font-size: 15vw;
+  margin-left: 10px;
+  z-index: 0;
+}
+.navBurger:hover{
+  cursor: pointer;
+  background-color: rgb(77, 77, 77);
+  z-index: 0;
+}
+
+.overlayNav {  
+  grid-area: 1/1/12/8;
+  background-color: white;
+  
+  z-index:1;
+  display: hidden;
+
+}
+
+.navItem{
+  display: none;
+}
+
+@media screen 
+  and (max-width: 700px) 
+  and (orientation: landscape){
+    .topBar{
+      height: 100%;
+    }
+    .burgerButton{
+      height: 50px;
+      font-size: 8vw;
+    }
+    .textBox{
+      font-size: 3vw;
+      grid-area: 4/1/10/8; 
+      margin-left: 20px;
+      padding-top: 0px;
+    }
+    .gridTitle{
+      grid-area: 3/1/4/8;
+    }
+    .gridTitle span{
+      font-size: 13vw;
+    }
+    .center{
+      margin-top: 0px;
+    }
 }

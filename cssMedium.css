@@ -9,13 +9,12 @@ body{
   height: 100%;
   margin: 0;
   background-color: #0B2B2B;
-}
-
-.gridContainer{
   display: grid;
   grid-template-rows: repeat(12, 1fr);
   grid-template-columns: repeat(12, 1fr);
 }
+
+
 
 .gridTitle{
   grid-area: 1/1/6/25;
@@ -33,7 +32,7 @@ body{
   color:#2BFC9F;
 }
 
-.textbox{
+.textBox{
   grid-area: 5/3/10/11; 
   font-size: 2.5vw;
   padding: 20px 20px;
@@ -75,4 +74,8 @@ body{
 .links:hover{
   background-color: rgb(15, 80, 51);
   color: white;
+}
+
+.overlay, .topBar{
+  display: none;
 }
