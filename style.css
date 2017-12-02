@@ -21,10 +21,10 @@ h1{
 }
 
 h2{	
+	font: 48px sans-serif;
 	text-align: center;
-	font: 35px sans-serif;
-	text-decoration: underline;
-	margin: 0;
+	text-shadow: 0.5px 0.5px 0.5px #000;
+    margin-top: 5px;
 }
 
 h3{
@@ -100,7 +100,6 @@ a{
 
 .navbar {
 	top: 0;
-    //background-color: #0B2B2B;
     font-family: raleway;
     position: fixed;
     text-align: center;
@@ -112,23 +111,24 @@ a{
 	width: 24.8%;
     float: left;
     font-size: 35px;
-    color: #fff;
+    color: #0B2B2B;
     text-align: center;
     padding: 10px 0px;
 	text-decoration: none;
 	border-radius: 7px;
 	margin: 0.1% 0.1%;
-	background-color: #0B2B2B;
+	background-color: #2BFC9F;
+	font-weight: bold;
 }
 
-.navbar a:hover:not(.aktivnav) {
-    background-color: rgb(13, 68, 45);
-	color: #fff;
+.navbar a:hover {
+    background-color: rgb(23, 110, 73);
+	color: #fff;	
 }
 
 .aktivnav{
-	background-color: rgba(96, 252, 182, 0.53);
-	color: #082020 !important;
+	background-color: rgb(23, 110, 73) !important;
+	color: #fff !important;
 }
 
 a:focus{
