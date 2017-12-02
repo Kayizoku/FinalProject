@@ -46,7 +46,8 @@ section{
 }
 
 .aktiv{
-	background-color: darkgray;
+	background-color: rgb(23, 110, 73);
+	color: #fff;
 }
 
 .KnapperMidten{
@@ -63,7 +64,8 @@ section{
 }
 
 .KnapperMidten a:hover{
-	color: darkgreen;
+    background-color: rgb(23, 110, 73);
+	color: #fff;
 	
 }
 
